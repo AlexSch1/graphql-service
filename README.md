@@ -3,7 +3,8 @@
 #### Запуск
 1. Склонировать  repository with microservices [here](https://github.com/rolling-scopes-school/node-graphql-service)
 2. Настроить .env файлы, установить зависимости для сервисов, запустить все сервисы
-3. Запустить приложение `npm run start:dev`
+3. Переименовать .env.example в .env либо создать свой файл с и прописать там урлы для доступа к сервисам
+4. Старт приложения: установить зависимтости + запустить`npm run start:dev`
 
 
 #### Created queries:
