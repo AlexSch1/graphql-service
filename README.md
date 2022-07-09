@@ -1,16 +1,10 @@
 # graphql-service
 
-You can find repository with microservices {{link}}
+#### Запуск
+1. Склонировать  repository with microservices [here](https://github.com/rolling-scopes-school/node-graphql-service)
+2. Настроить .env файлы, установить зависимости для сервисов, запустить все сервисы
+3. Запустить приложение `npm run start:dev`
 
-- The  repository with - The  application contains a Readme.md file containing detailed instructions for installing, running and using - The  application
-- The  application code that worked with Users instance divided into modules according to to its purpose and Nest.js architecture conventions (work with request and response in controller, business logic in service, etc.)
-- The  application code that worked with Tracks instance instance divided into modules according to to its purpose and Nest.js architecture conventions (work with request and response in controller, business logic in service, etc.)
-- The  application code that worked with Albums instance instance divided into modules according to to its purpose and Nest.js architecture conventions (work with request and response in controller, business logic in service, etc.)
-- The  application code that worked with Artists instance instance divided into modules according to to its purpose and Nest.js architecture conventions (work with request and response in controller, business logic in service, etc.)
-- The  application code that worked with Favorites instance instance divided into modules according to to its purpose and Nest.js architecture conventions (work with request and response in controller, business logic in service, etc.)
-- The  application code that worked with Genres instance instance divided into modules according to to its purpose and Nest.js architecture conventions (work with request and response in controller, business logic in service, etc.)
-- The  application code that worked with Bands instance instance divided into modules according to to its purpose and Nest.js architecture conventions (work with request and response in controller, business logic in service, etc.)
-- Every implemented query/mutation
 
 #### Created queries:
 - artist
@@ -137,3 +131,15 @@ type Track {
     genres: [Genre]
 }
 ```
+
+______
+### Description
+- The repository with - The  application contains a Readme.md file containing detailed instructions for installing, running and using - The  application
+- The application code that worked with Users instance divided into modules according to to its purpose and Nest.js architecture conventions (work with request and response in controller, business logic in service, etc.)
+- The application code that worked with Tracks instance divided into modules according to to its purpose and Nest.js architecture conventions (work with request and response in controller, business logic in service, etc.)
+- The application code that worked with Albums instance divided into modules according to to its purpose and Nest.js architecture conventions (work with request and response in controller, business logic in service, etc.)
+- The application code that worked with Artists instance divided into modules according to to its purpose and Nest.js architecture conventions (work with request and response in controller, business logic in service, etc.)
+- The application code that worked with Favorites instance divided into modules according to to its purpose and Nest.js architecture conventions (work with request and response in controller, business logic in service, etc.)
+- The application code that worked with Genres instance divided into modules according to to its purpose and Nest.js architecture conventions (work with request and response in controller, business logic in service, etc.)
+- The application code that worked with Bands instance divided into modules according to to its purpose and Nest.js architecture conventions (work with request and response in controller, business logic in service, etc.)
+- Every implemented query/mutation
