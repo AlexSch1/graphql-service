@@ -1,0 +1,50 @@
+{
+  "name": "graphql-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start:dev": "nodemon src/server.ts",
+    "start:prod": "tsc && node build/server",
+    "test": "cross-env DEBUG=rs:* jest --testMatch \"<rootDir>/test/e2e/test/*.test.js\" --noStackTrace --runInBand",
+    "lint": "eslint --ext .ts --fix src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexSch1/graphql-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexSch1/graphql-service/issues"
+  },
+  "homepage": "https://github.com/AlexSch1/graphql-service#readme",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/express-serve-static-core": "^4.17.29",
+    "apollo-server-core": "^3.9.0",
+    "apollo-server-express": "^3.9.0",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "graphql": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2",
+    "supertest": "^6.2.3",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  }
+}
